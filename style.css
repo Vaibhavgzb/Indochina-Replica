@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "ProximaNova","Arial",sans-serif !important;
+    line-height: 20px!important;
+    background-color: #fff!important;
+}
+.cnav-upper,.cnav-upper-link{
+	font-size: 11px!important;
+	color: #707070!important;
+	text-decoration: none;
+	padding-top: 0!important;
+    padding-bottom: 0!important;
+ }
+ .cnav-ul{
+ 	/*border: 1px solid black;*/
+ }
+ .cnav-ul .nav-item .nav-link{
+ 	 	color: #707070;
+ }
+.nav-logo{
+	max-width: 150px;
+}
+.cnav a{
+    color: #707070;
+}
+.logo-text{
+	font-size: 16px;
+}
+.highlight-link{
+	background: #e31111;
+	
+}
+.highlight-link a{
+	color: white!important;
+}
+.navbar{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+ 	position: sticky!important;
+    top: 0;
+    background-color: #ffffff!important;
+        z-index: 1000;
+ }
+ /*.nav-link{
+    padding-top: 1rem!important;
+	padding-bottom: 1rem!important;
+    }*/
+#navbarTogglerDemo02 ul li{
+padding-top: 0.25rem!important;
+	padding-bottom: 0.25rem!important;
+	margin-left: 5px;
+}
+
+
+/*----Menu---------------*/
+.menu-details{
+	display: inline-block;
+	margin-bottom: 0;
+}
+.menu-row{
+	background-color: #f0efeb;
+
+}
+.menu-column a{
+	text-decoration: none;
+	    color: black;
+	    font-size: 12px;
+}
+.menu-column a img{
+	height: 50px;
+	width: 50px;
+	margin: 0 15px;
+}
+
+/*-------Banner---------*/
+.banner{
+	color: white;
+}
+.banner button{
+	border-radius: 0;
+		font-weight: 700;
+		font-size: 18px;
+}
+.banner button:hover{
+    background: transparent;
+	border: 1px solid white;
+	color: white;
+}
+
+
+/*---------Product--------------*/
+.product div{
+	    /*width: 250px;*/
+}
+
+.product-title hr{
+	width: 37%;
+}
+.product-heading{
+    font-size: 14px;
+    font-weight: bold;
+    color: #707070;
+    margin-bottom: 0;
+}
+.product-price{
+line-height: 30px;
+    font-size: 14px;
+    color: #707070;
+        margin-bottom: 0;
+        font-weight: 500;
+}
+.product-button{
+background-color: #207bbc!important;
+/*border-radius: 0!important;*/
+min-height: 30px!important;
+cursor: pointer!important;
+}
+
+/*-------Banner 2---------*/
+.banner2{
+	color: black;
+}
+.banner2 button{
+	border-radius: 0;
+		font-weight: 700;
+		font-size: 18px;
+
+}
+.banner2 button:hover{
+    background: white;
+	border: 1px solid black;
+	color: black;
+}
+
+/*----------Intro-----------*/
+.intro div button{
+	border-radius: 0;
+		font-weight: 700;
+		font-size: 18px;
+		border: 1px solid black;
+}
+.intro div button:hover{
+    background: black;
+	border: 1px solid black;
+	color: white;
+}
+
+/*-------------Panel----------------*/
+.panel-left{
+	background: #61656e;
+    border-right: 1px solid #fff;
+}
+.panel-right{
+	    background: #f7f7f7;
+    border-left: 1px solid #fff;
+}
+
+/*----------email Form-------------*/
+#button-addon2{
+	background-color: black;
+	color: white;
+}
+
+.form-check-label{
+	font-size: 12px!important;
+}
+
+/*------------Slider-------------*/
+
+.slider-action .carousel-control-prev{
+	position: relative;
+}
+.slider-action .carousel-indicators{
+	position: relative;
+	margin-left: 0;
+	margin-right: 0;
+
+}
+.slider-action .carousel-control-next{
+	position: relative;
+}
+
+/*-----footer-------------*/
+.cfooter p{
+	font-size: 14px;
+}
+.cfooter li{
+	font-size: 12px;
+	line-height: 25px;
+}
+.cfooter a{
+	text-decoration: none;
+	color: #707070;
+}
+.cfooter a:hover{
+	color: black;
+	border-bottom: 1px solid black;
+}
+
+
+.cform .form-floating i{
+	    position: absolute;
+    top: 40%;
+    right: 10px;
+    color: #207bbc;
+}
